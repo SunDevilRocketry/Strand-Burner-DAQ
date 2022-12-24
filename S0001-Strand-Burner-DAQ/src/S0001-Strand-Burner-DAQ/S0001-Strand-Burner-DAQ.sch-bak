@@ -1,0 +1,416 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "S0001-Burner-Strand-DAQ"
+Date ""
+Rev "1.0"
+Comp "Sun Devil Rocketry"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L S0001-Strand-Burner-DAQ:Arduino_Nano_v2.x A?
+U 1 1 619C0F21
+P 5750 3550
+F 0 "A?" H 5750 2369 50  0000 C CNN
+F 1 "Arduino_Nano_v2.x" H 5750 2460 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 5750 3550 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf" H 5750 3550 50  0001 C CNN
+	1    5750 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L S0001-Strand-Burner-DAQ:Battery BT?
+U 1 1 619C3CC4
+P 5850 4750
+F 0 "BT?" H 5958 4796 50  0000 L CNN
+F 1 "Battery" H 5958 4705 50  0000 L CNN
+F 2 "" V 5850 4810 50  0001 C CNN
+F 3 "~" V 5850 4810 50  0001 C CNN
+	1    5850 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L S0001-Strand-Burner-DAQ:Earth #PWR?
+U 1 1 619C61F4
+P 5850 4950
+F 0 "#PWR?" H 5850 4700 50  0001 C CNN
+F 1 "Earth" H 5850 4800 50  0001 C CNN
+F 2 "" H 5850 4950 50  0001 C CNN
+F 3 "~" H 5850 4950 50  0001 C CNN
+	1    5850 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L S0001-Strand-Burner-DAQ:HX711 U?
+U 1 1 619C7C21
+P 3700 3400
+F 0 "U?" H 3700 4167 50  0000 C CNN
+F 1 "HX711" H 3700 4076 50  0000 C CNN
+F 2 "SPARKFUN_SEN-13879" H 3700 3400 50  0001 L BNN
+F 3 "" H 3700 3400 50  0001 L BNN
+F 4 "SparkFun" H 3700 3400 50  0001 L BNN "MANUFACTURER"
+F 5 "Manufacturer Recommendations" H 3700 3400 50  0001 L BNN "STANDARD"
+	1    3700 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2550 5750 2550
+$Comp
+L S0001-Strand-Burner-DAQ:Earth #PWR?
+U 1 1 61AC5DA3
+P 6300 2550
+F 0 "#PWR?" H 6300 2300 50  0001 C CNN
+F 1 "Earth" H 6300 2400 50  0001 C CNN
+F 2 "" H 6300 2550 50  0001 C CNN
+F 3 "~" H 6300 2550 50  0001 C CNN
+	1    6300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L S0001-Strand-Burner-DAQ:SW_DIP_x01 SW?
+U 1 1 61AC7583
+P 6550 3650
+F 0 "SW?" H 6550 3917 50  0000 C CNN
+F 1 "SW_DIP_x01" H 6550 3826 50  0000 C CNN
+F 2 "" H 6550 3650 50  0001 C CNN
+F 3 "~" H 6550 3650 50  0001 C CNN
+	1    6550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L S0001-Strand-Burner-DAQ:R_US R?
+U 1 1 61AC8E58
+P 7250 4350
+F 0 "R?" V 7045 4350 50  0000 C CNN
+F 1 "R_US" V 7136 4350 50  0000 C CNN
+F 2 "" V 7290 4340 50  0001 C CNN
+F 3 "~" H 7250 4350 50  0001 C CNN
+	1    7250 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L S0001-Strand-Burner-DAQ:R_US R?
+U 1 1 61AC9A0D
+P 7250 4700
+F 0 "R?" V 7045 4700 50  0000 C CNN
+F 1 "R_US" V 7136 4700 50  0000 C CNN
+F 2 "" V 7290 4690 50  0001 C CNN
+F 3 "~" H 7250 4700 50  0001 C CNN
+	1    7250 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L S0001-Strand-Burner-DAQ:LED D?
+U 1 1 61AD0EDD
+P 7550 4350
+F 0 "D?" H 7543 4567 50  0000 C CNN
+F 1 "LED" H 7543 4476 50  0000 C CNN
+F 2 "" H 7550 4350 50  0001 C CNN
+F 3 "~" H 7550 4350 50  0001 C CNN
+	1    7550 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 2900 4200 3000
+Wire Wire Line
+	5550 4550 4600 4550
+Wire Wire Line
+	4600 4550 4600 3000
+Wire Wire Line
+	4600 3000 4200 3000
+Connection ~ 4200 3000
+Wire Wire Line
+	4200 3500 4450 3500
+Wire Wire Line
+	4450 3500 4450 5150
+Wire Wire Line
+	4450 5150 6600 5150
+Wire Wire Line
+	6600 5150 6600 3950
+Wire Wire Line
+	6600 3950 6250 3950
+$Comp
+L S0001-Strand-Burner-DAQ:Earth #PWR?
+U 1 1 61ADDF62
+P 4200 3900
+F 0 "#PWR?" H 4200 3650 50  0001 C CNN
+F 1 "Earth" H 4200 3750 50  0001 C CNN
+F 2 "" H 4200 3900 50  0001 C CNN
+F 3 "~" H 4200 3900 50  0001 C CNN
+	1    4200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery BT?
+U 1 1 61AEDC57
+P 6850 2200
+F 0 "BT?" V 6605 2200 50  0000 C CNN
+F 1 "Battery" V 6696 2200 50  0000 C CNN
+F 2 "" V 6850 2260 50  0001 C CNN
+F 3 "~" V 6850 2260 50  0001 C CNN
+	1    6850 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L S0001-Strand-Burner-DAQ:Earth #PWR?
+U 1 1 61AF186E
+P 6650 2200
+F 0 "#PWR?" H 6650 1950 50  0001 C CNN
+F 1 "Earth" H 6650 2050 50  0001 C CNN
+F 2 "" H 6650 2200 50  0001 C CNN
+F 3 "~" H 6650 2200 50  0001 C CNN
+	1    6650 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2550 6300 2550
+Connection ~ 5750 2550
+Wire Wire Line
+	6700 3850 6250 3850
+Wire Wire Line
+	6700 3850 6700 5250
+Wire Wire Line
+	6700 5250 4350 5250
+Wire Wire Line
+	4350 5250 4350 3600
+Wire Wire Line
+	4350 3600 4200 3600
+$Comp
+L S0001-Strand-Burner-DAQ:PressureTransducer H?
+U 1 1 61B14C0F
+P 2250 5000
+F 0 "H?" H 2308 5325 50  0000 C CNN
+F 1 "PressureTransducer" H 2308 5234 50  0000 C CNN
+F 2 "" H 2250 5250 50  0001 C CNN
+F 3 "" H 2250 5250 50  0001 C CNN
+	1    2250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L S0001-Strand-Burner-DAQ:Earth #PWR?
+U 1 1 61B1EF36
+P 2650 5200
+F 0 "#PWR?" H 2650 4950 50  0001 C CNN
+F 1 "Earth" H 2650 5050 50  0001 C CNN
+F 2 "" H 2650 5200 50  0001 C CNN
+F 3 "~" H 2650 5200 50  0001 C CNN
+	1    2650 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L S0001-Strand-Burner-DAQ:Load_Cell H?
+U 1 1 61B208FF
+P 2800 3200
+F 0 "H?" H 2858 3525 50  0000 C CNN
+F 1 "Load_Cell" H 2858 3434 50  0000 C CNN
+F 2 "" H 2800 3450 50  0001 C CNN
+F 3 "" H 2800 3450 50  0001 C CNN
+	1    2800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L S0001-Strand-Burner-DAQ:2SCR573D3TL1 Q?
+U 1 1 61B3CAA7
+P 7500 3850
+F 0 "Q?" V 7250 4250 50  0000 C CNN
+F 1 "2SCR573D3TL1" V 7400 4250 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7750 3725 50  0001 L CIN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf" H 7500 3850 50  0001 L CNN
+	1    7500 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 1750 4600 1750
+Wire Wire Line
+	4600 1750 4600 3000
+Connection ~ 4600 3000
+Wire Wire Line
+	4300 1850 6300 1850
+Wire Wire Line
+	6300 1850 6300 2550
+Connection ~ 6300 2550
+Wire Wire Line
+	4300 1550 6300 1550
+Wire Wire Line
+	6300 1550 6300 1850
+Connection ~ 6300 1850
+Text Notes 1600 1750 0    50   ~ 0
+IDK WHAT TO PUT HERE
+Wire Wire Line
+	4300 1650 6500 1650
+Wire Wire Line
+	7100 4350 7100 4700
+Wire Wire Line
+	7050 2200 7300 2200
+Wire Wire Line
+	6850 3650 7100 3650
+Wire Wire Line
+	7700 3950 7700 4350
+Wire Wire Line
+	7100 4350 7100 3650
+Connection ~ 7100 4350
+Connection ~ 7100 3650
+Wire Wire Line
+	7100 3650 7500 3650
+Wire Wire Line
+	7300 3950 7300 2200
+Wire Wire Line
+	4300 2150 6400 2150
+Wire Wire Line
+	6400 2150 6400 3250
+Wire Wire Line
+	6400 3250 6250 3250
+Wire Wire Line
+	4300 2050 6450 2050
+Wire Wire Line
+	6450 2050 6450 3150
+Wire Wire Line
+	6450 3150 6250 3150
+Wire Wire Line
+	6500 1450 6500 1650
+Wire Wire Line
+	6500 3050 6250 3050
+Connection ~ 6500 1650
+Wire Wire Line
+	6500 1650 6500 3050
+Wire Wire Line
+	6250 2950 6550 2950
+Wire Wire Line
+	6550 2950 6550 1350
+Wire Wire Line
+	6550 1350 4300 1350
+$Comp
+L S0001-Strand-Burner-DAQ:SD_Card J?
+U 1 1 61B0A2FE
+P 3400 1750
+F 0 "J?" H 3400 1085 50  0000 C CNN
+F 1 "SD_Card" H 3400 1176 50  0000 C CNN
+F 2 "" H 3400 1750 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 3400 1750 50  0001 C CNN
+	1    3400 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 1450 6500 1450
+Wire Wire Line
+	4300 1950 5250 1950
+Wire Wire Line
+	5250 1950 5250 2850
+$Comp
+L S0001-Strand-Burner-DAQ:Earth #PWR?
+U 1 1 61AE24C3
+P 7100 5650
+F 0 "#PWR?" H 7100 5400 50  0001 C CNN
+F 1 "Earth" H 7100 5500 50  0001 C CNN
+F 2 "" H 7100 5650 50  0001 C CNN
+F 3 "~" H 7100 5650 50  0001 C CNN
+	1    7100 5650
+	1    0    0    -1  
+$EndComp
+Connection ~ 7300 2200
+Wire Wire Line
+	7300 2200 8250 2200
+Connection ~ 8250 2200
+Wire Wire Line
+	8800 2200 8800 2350
+Wire Wire Line
+	8250 2200 8800 2200
+Wire Wire Line
+	8250 2200 8250 2350
+Connection ~ 8250 5650
+Wire Wire Line
+	8800 5650 8250 5650
+$Comp
+L S0001-Strand-Burner-DAQ:R_US R?
+U 1 1 61AE9307
+P 8800 2500
+F 0 "R?" H 8868 2546 50  0000 L CNN
+F 1 "R_US" H 8868 2455 50  0000 L CNN
+F 2 "" V 8840 2490 50  0001 C CNN
+F 3 "~" H 8800 2500 50  0001 C CNN
+	1    8800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L S0001-Strand-Burner-DAQ:R_US R?
+U 1 1 61AE86EB
+P 8250 2500
+F 0 "R?" H 8318 2546 50  0000 L CNN
+F 1 "R_US" H 8318 2455 50  0000 L CNN
+F 2 "" V 8290 2490 50  0001 C CNN
+F 3 "~" H 8250 2500 50  0001 C CNN
+	1    8250 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 3350 8250 5650
+Wire Wire Line
+	8250 2650 8250 3350
+Connection ~ 8250 3350
+Wire Wire Line
+	6250 3350 8250 3350
+Wire Wire Line
+	8800 3450 8800 5650
+Wire Wire Line
+	8800 2650 8800 3450
+Connection ~ 8800 3450
+Wire Wire Line
+	6250 3450 8800 3450
+$Comp
+L S0001-Strand-Burner-DAQ:MP6972GS-P U?
+U 1 1 61AC7F61
+P 3400 6500
+F 0 "U?" H 4200 6887 60  0000 C CNN
+F 1 "MP6972GS-P" H 4200 6781 60  0000 C CNN
+F 2 "SOIC-8_MP6972_MNP" H 4200 6740 60  0001 C CNN
+F 3 "" H 3400 6500 60  0000 C CNN
+	1    3400 6500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7700 4350
+Connection ~ 7700 5650
+Wire Wire Line
+	8250 5650 7700 5650
+Wire Wire Line
+	7700 5650 7100 5650
+Connection ~ 7700 4700
+Wire Wire Line
+	7700 4700 7700 5650
+Wire Wire Line
+	7700 4700 7400 4700
+Wire Wire Line
+	7700 4350 7700 4700
+Wire Wire Line
+	5550 4550 5550 4900
+Wire Wire Line
+	5550 4900 3700 4900
+Connection ~ 5550 4550
+Wire Wire Line
+	3400 4900 2650 4900
+Wire Wire Line
+	2650 5000 2800 5000
+Wire Wire Line
+	2800 5000 2800 4100
+Wire Wire Line
+	2800 4100 4700 4100
+Wire Wire Line
+	4700 4100 4700 3350
+Wire Wire Line
+	4700 3350 5250 3350
+Wire Wire Line
+	2650 5100 2900 5100
+Wire Wire Line
+	2900 5100 2900 4200
+Wire Wire Line
+	2900 4200 4800 4200
+Wire Wire Line
+	4800 4200 4800 3450
+Wire Wire Line
+	4800 3450 5250 3450
+$EndSCHEMATC

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Strand-Burner")(type "KiCad")(uri "C:/Users/chand/SDR/S0001-Strand-Burner-DAQ/S0001-Strand-Burner-DAQ/lib/Strand-Burner.pretty")(options "")(descr ""))
+  (lib (name "L0003-Wheatstone-Bridge")(type "KiCad")(uri "C:/Users/chand/SDR/L0003-Wheatstone_Bridge/L0003-Wheatstone-Bridge/lib/L0003-Wheatstone-Bridge.pretty")(options "")(descr ""))
+)

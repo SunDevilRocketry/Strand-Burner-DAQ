@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "S0001-Strand-Burner-DAQ")(type "KiCad")(uri "C:/Users/chand/SDR/S0001-Strand-Burner-DAQ/S0001-Strand-Burner-DAQ/lib/S0001-Strand-Burner-DAQ.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-03-25_22-41-21")(type "Legacy")(uri "C:/Users/chand/Downloads/ul_140-502-417-011/KiCAD/2022-03-25_22-41-21/2022-03-25_22-41-21.lib")(options "")(descr ""))
+)
